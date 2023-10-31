@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background-color: #bca37f; */
+}
+
+header {
+  padding-top: 50px;
+  border-bottom: 5px solid #bca37f;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+p {
+  color: rgb(62, 46, 46);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+h1 {
+  color: rgb(62, 46, 46);
+  text-align: center;
+}
+h2 {
+  color: #bca37f;
+  text-align: center;
+}
+main {
+  display: block;
+  margin-top: 0;
+  background-image: linear-gradient(to right, #ead7bb, rgb(62, 46, 46));
+  padding-top: 10px;
+}
+
+/* W3 schools for overflow hidden */
+.navbar {
+  margin-bottom: 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(64, 79, 65),
+    #f5f5dc,
+    rgb(64, 79, 65)
+  );
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7%;
+}
+
+.navbar a {
+  margin-bottom: 0;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  /* text-align: center; */
+  float: right;
+  padding: 16px 18px;
+}
+
+/* contact me container */
+#Contact {
+  background-color: rgb(62, 46, 46);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 5px solid rgb(71, 71, 69);
+}
+.btn {
+  background-color: rgb(64, 79, 65);
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+}
+
+form {
+  border: 7px solid rgb(71, 71, 69);
+  width: 370px;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  padding-right: 14px;
+  padding-top: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+}
+li {
+  display: block;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  color: rgba(183, 167, 167, 0.796);
+}
+
+/* send button */
+.text-center {
+  margin-left: 170px;
+  padding-bottom: 5px;
+}
+input {
+  width: 80%;
+}
+/* footer */
+footer {
+  /* background-color: #004225; */
+  background-color: rgb(64, 79, 65);
+  overflow: hidden;
+}
+
+.footer {
+  color: whitesmoke;
+}
